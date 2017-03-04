@@ -17,12 +17,12 @@ Hadoop 2.x has following benefits-
 
 2)Explain the difference between MapReduce 1 and MapReduce 2 / Yarn
 Ans- 
-Hadoop 1.x also called as hadoop 1 where HDFS (Resource management and scheduling) and MapReduce(Programming Framework) hence non batch 
+Hadoop 1.x also called as hadoop 1 where HDFS (Resource management and scheduling) and Map Reduce(Programming Framework) hence non batch 
 applications cannot be run on hadoop 1. It can support only single name node. So it does no provide system availability and scalability.
 
-MRv2 (aka Hadoop 2) in this version of hadoop the resource management and scheduling tasks are separated from MapReduce which is separated by 
-YARN(Yet Another Resource Negotiator).  The resource management and scheduling layer lies beneath the MapReduce layer. 
-It also provides high system availability and scalability as we can create redundant NameNodes. 
+MRv2 (aka Hadoop 2) in this version of hadoop the resource management and scheduling tasks are separated from Map Reduce which is separated by 
+YARN(Yet Another Resource Negotiator).  The resource management and scheduling layer lies beneath the Map Reduce layer. 
+It also provides high system availability and scalability as we can create redundant Name Nodes. 
 The new feature of snapshot through which we can take backup of filesystems which helps disaster recovery.
 
  
